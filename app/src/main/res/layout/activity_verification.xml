@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerificationActivity">
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:text="Enter OTP sent to you"
+        android:textColor="#050505"
+        android:textSize="24sp"
+
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+
+        android:layout_gravity="center"
+        android:inputType="number|textPersonName"
+
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="TextView"
+        />
+
+
+    <Button
+        android:id="@+id/track"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="20dp"
+        android:background="#0C0C0C"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+

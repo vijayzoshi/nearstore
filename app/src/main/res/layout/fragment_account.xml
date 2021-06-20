@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/nameid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="120dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#090909" android:text="Edit" android:id="@+id/editid" android:gravity="left"/>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/phonenoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider1" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+    <Button android:background="#FFFFFF" android:layout_height="57dp" android:layout_width="match_parent" android:textSize="16sp" android:text="My Address" android:id="@+id/addressid" android:typeface="sans" android:textAllCaps="false" android:textAlignment="viewStart" android:paddingLeft="40dp" android:bufferType="normal" android:layout_gravity="start"/>
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider2" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+    <Button android:background="#FFFFFF" android:layout_height="57dp" android:layout_width="match_parent" android:textSize="16sp" android:text="Orders" android:id="@+id/orderid" android:typeface="sans" android:textAllCaps="false" android:textAlignment="viewStart" android:paddingLeft="40dp" android:bufferType="normal" android:layout_gravity="start"/>
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider3" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+    <Button android:background="#FFFFFF" android:layout_height="57dp" android:layout_width="match_parent" android:textSize="16sp" android:text="Help" android:id="@+id/helpid" android:typeface="sans" android:textAllCaps="false" android:textAlignment="viewStart" android:paddingLeft="40dp" android:bufferType="normal" android:layout_gravity="start"/>
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider4" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+    <Button android:background="#FFFFFF" android:layout_height="57dp" android:layout_width="match_parent" android:textSize="16sp" android:text="Developer" android:id="@+id/aboutusid" android:typeface="sans" android:textAllCaps="false" android:textAlignment="viewStart" android:paddingLeft="40dp" android:bufferType="normal" android:layout_gravity="start"/>
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider5" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+    <Button android:background="#FFFFFF" android:layout_height="57dp" android:layout_width="match_parent" android:textSize="16sp" android:text="Log Out" android:id="@+id/logoutid" android:typeface="sans" android:textAllCaps="false" android:textAlignment="viewStart" android:paddingLeft="40dp" android:bufferType="normal" android:layout_gravity="start"/>
+
+    <View android:background="?android:attr/listDivider" android:layout_height="0.5dp" android:layout_width="409dp" android:layout_marginRight="1dp" android:layout_marginLeft="1dp" android:id="@+id/divider6" android:layout_marginEnd="1dp" android:layout_marginStart="1dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

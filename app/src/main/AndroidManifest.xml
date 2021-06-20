@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nearstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddressActivity"></activity>
+        <activity android:name=".OrderDetailedDetails" />
+        <activity android:name=".ProductTab.SecondaryCart" />
+        <activity android:name=".OrderDetailsActivity" />
+        <activity android:name=".Orders" />
+        <activity android:name=".OrderDelivered" />
+        <activity android:name=".OrderStatus" />
+        <activity android:name=".Data" />
+        <activity android:name=".MyAddress" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".VerificationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Search" />
+        <activity android:name=".ProductTab.Demo" />
+        <activity android:name=".Shop1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

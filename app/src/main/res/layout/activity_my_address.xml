@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MyAddress">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="393dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="10dp"
+        android:padding="40dp"
+        android:paddingTop="70dp"
+        android:paddingBottom="70dp"
+        app:cardCornerRadius="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_home_black_24dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Saved Address"
+                    android:textColor="#050505"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/myaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:singleLine="false"
+                    android:text="Rzc 148 b Gurudwara Road Mahavir Enclave part 1 New Delhi - 110045 " />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/editaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/ic_edit_black_24dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

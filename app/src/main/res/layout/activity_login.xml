@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Enter Your Mobile Number"
+        android:textColor="#0E0D0D"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:text="+91"
+            android:textColor="#232222"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="number|textPersonName"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:id="@+id/track"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="130dp"
+        android:background="#050505"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
